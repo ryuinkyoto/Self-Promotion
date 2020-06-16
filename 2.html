@@ -5,7 +5,11 @@
   <meta charset="utf-8">
   <style>
     a {
+      color: black;
       text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     h1 {
       font-size:45px;
@@ -13,7 +17,24 @@
       text-decoration: none;
     }
     h2 {
+      font-size: 18px;
+      text-align: left;
+      font-weight: normal;
+    }
+    h3 {
+      color: darkred;
+      font:size: 16px;
       text-align: center;
+      font-weight: normal;
+    }
+    p {
+      text-align: center;
+    }
+    p:link, p:visited {
+      color: blue;
+    }
+    .links {
+      color: blue;
     }
     .img {
       display: block;
@@ -21,19 +42,18 @@
       margin-right: auto;
       width: 560px;
     }
-    p {
-      text-align: center;
-    }
   </style>
 </head>
 <body>
-<h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
-  <h2>CSS</h2>
+  <h1><a href="index.html">WEB</a></h1>
+    <ol>
+      <h2>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+      </h2>
+    </ol>
+    <h3>CSS</h3>
   <img src="css.jpg" class="img"><br>
   <p><a href="https://www.w3schools.com/css/css_specificity.asp" target="_blank" title="CSS Specification" style="color:blue">CSS</a>
     Specificity is the set of the rules applied to CSS selectors in order to determine which style is applied to an element. <br>The more specific a CSS style is, the higher point value it accrues, and the likelier it is to be present on the element's style.</p>
